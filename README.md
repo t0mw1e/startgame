@@ -1,2 +1,2 @@
 # startgame
-Angular: Game on Homepage
+Angular: Game on my Homepage
