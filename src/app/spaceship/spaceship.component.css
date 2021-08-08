@@ -1,0 +1,44 @@
+.ship-o {
+    position: absolute;
+    width: 39px;
+    height: 19px;
+    border: 1px solid red;
+}
+
+.ship {
+    position: absolute;
+    width: 39px;
+    height: 19px;
+  }
+  
+.ship-core {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    width: 18px;
+    height: 15px;
+    background-color: #9b9897;
+    border-radius: 50%;
+}
+
+.ship-arrow {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    width: 39px;
+    height: 7px;
+    background-color: #9b9897;
+    border-radius: 80% 60%;
+}
+
+.ship-booster {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 14px;
+    height: 14px;
+    border-width: 2px 0px 0px 2px;
+    border-color: #9b9897;
+    transform: rotate(45deg);
+    border-style: solid;
+}

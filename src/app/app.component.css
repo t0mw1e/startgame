@@ -1,0 +1,136 @@
+.hline {
+    position: absolute;
+    background-color: #010174;
+    min-height: 300px;
+    height: 300px;
+    bottom: 10vh;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+}
+
+.bLine {
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    top: 277px;
+    left: 0;
+    border-top: 1px solid #010174;
+}
+
+.gameOver {
+    position: absolute;
+    background-color: #010174;
+    top: 60px;
+    width: 400px;
+    left: 20px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #2A4383;
+    color: #2A4383;
+    padding: 4px;
+}
+
+.gameStart {
+    position: absolute;
+    background-color: #010174;
+    top: 70px;
+    width: 200px;
+    left: 120px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #2A4383;
+    color: #2A4383;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.shootCounter {
+    color: #010174;
+    font-size: 180px;
+    position: absolute;
+    left: 3px;
+    top: 135px;
+    font-weight: bold;
+    font-style: italic;
+    height: 170px;
+    width: 450px;
+    text-align: right;
+}
+
+.playbox {
+    position: absolute;
+    background-color: #181844;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #cccccc; /* */
+    overflow: hidden;
+}
+
+.bottomLine {
+    position: absolute;
+    top: 90vh;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+}
+
+.maillink {
+    position: absolute;
+    text-align: right;
+    left: 0px;
+    right: 0px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+}
+
+.gun {
+    position: absolute;
+    top: 282px;
+    width: 19px;
+    height: 19px;
+    overflow: hidden;
+  }
+  
+.gun-core {
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    width: 19px;
+    height: 19px;
+    background-color: #9b9897;
+    transform: rotate(45deg);
+    border-radius: 7px;
+}
+
+.gun-gun {
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    width: 1px;
+    height: 19px;
+    border-color: #9b9897;
+    border-style: solid;
+    border-width: 0px 3px 0px 3px;
+}
+
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    border-right: 1px solid green;
+}

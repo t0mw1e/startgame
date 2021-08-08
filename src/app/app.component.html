@@ -1,0 +1,20 @@
+<div class="hline">
+  <div class="playbox">
+    <div class="shootCounter">{{ shootCounter }}</div>
+    <app-spaceship *ngFor="let ship of ships" [left]="ship.left" [top]="ship.top"></app-spaceship>
+    <div class="gameOver" *ngIf="gameOver">GAME OVER!</div>
+    <div class="gameStart" *ngIf="gameStart" (click)="startRound()">Klick zum Neustart</div>
+    <div class="gameStart" *ngIf="showIntro" (click)="startRound()">Die Cursortasten (Rechts - Links) sind zur Steuerung. Die Kanone feuert automatisch.<br><br>Klick hier zum Start.</div>
+    <div class="gun" style="{{ 'left: ' + gunLeft + 'px' }}">
+      <div class="gun-core"></div>
+      <div class="gun-gun"></div>
+    </div>
+    <div class="bullet" style="{{ 'left: ' + gunLeft + 'px; top: ' + bulletTop + 'px;' }}" *ngIf="showBullet"></div>
+  </div>
+</div>
+<div class="bottomLine">
+  <div class="maillink">
+    ein Spielplatz von<br><a href="mailto:thomas@wiedenhoeft-gailat.de">Thomas Wiedenhöft</a>
+  </div>
+</div>
+  
